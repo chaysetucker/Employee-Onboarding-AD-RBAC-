@@ -22,15 +22,11 @@ For this project, I built a basic employee onboarding environment in Active Dire
 
 ## Project Timeline
 
-Day 1: Domain creation and domain controller promotion
-
-Day 2: Organizational unit and security group design
-
-Day 3: User provisioning and RBAC implementation
-
-Day 4: Incident response and resolution (NMG 0047)
-
-Day 5: Documentation and case study packaging
+* Day 1: Domain creation and domain controller promotion
+* Day 2: Organizational unit and security group design
+* Day 3: User provisioning and RBAC implementation
+* Day 4: Incident response and resolution (NMG 0047)
+* Day 5: Documentation and case study packaging
 
 ## Key Accomplishments
 
