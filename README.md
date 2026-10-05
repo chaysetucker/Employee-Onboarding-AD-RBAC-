@@ -9,8 +9,7 @@ Northstar Medical Group (NMG) is a simulated company that had its Active Directo
 For this project, I rebuilt the NMG Active Directory environment from the ground up. I created the NMG.com domain and organized employees into Finance, HR, IT, and Operations OUs based on their departments. I created security groups for each department and used a flat Role Based Access Control (RBAC) model to manage access based on a user's role. I then provisioned users into the appropriate OUs and security groups so their access matched their job responsibilities. I also worked through an incorrect permission scenario to identify why a user had the wrong access and correct their OU and security group assignments.
 
 ## Video Walkthrough
-
-Video walkthrough coming soon
+[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
 
 ## Tools Used
 
