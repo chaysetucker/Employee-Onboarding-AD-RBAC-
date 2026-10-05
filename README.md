@@ -2,11 +2,11 @@
 
 ## Problem Statement
 
-Northstar Medical Group (NMG) is a simulated company that had its Active Directory environment previously managed by an MSP. The environment lacked a clear structure for organizing employees and managing access. User onboarding and access were handled manually, which made it easier for users to be placed in the wrong groups or receive incorrect permissions. For a healthcare organization, these access issues could also create security concerns and potential HIPAA risks.
+Northstar Medical Group (NMG) is a simulated healthcare company that was growing quickly and had its identity lifecycle managed by a third party MSP. As the company grew, the lack of structure started to create problems. There was no RBAC policy in place, users were being given access on an ad hoc basis, and there was no clear audit trail for tracking access. These issues made onboarding harder to manage and created unnecessary security and HIPAA risks.
 
 ## Solution Overview
 
-For this project, I rebuilt the NMG Active Directory environment from the ground up. I created the NMG.com domain and organized employees into Finance, HR, IT, and Operations OUs based on their departments. I created security groups for each department and used a flat Role Based Access Control (RBAC) model to manage access based on a user's role. I then provisioned users into the appropriate OUs and security groups so their access matched their job responsibilities. I also worked through an incorrect permission scenario to identify why a user had the wrong access and correct their OU and security group assignments.
+For this project, I built a basic employee onboarding environment in Active Directory for NMG. I created the NMG.com domain and organized users into Finance, HR, IT, and Operations OUs. I also created security groups for each department and used a flat Role Based Access Control (RBAC) model to manage access. Users were provisioned into the appropriate OU and security group based on their role instead of being given access individually. I also worked through a simulated incident where a user was assigned the wrong permissions, identified the cause, and corrected their OU and security group assignments.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
@@ -22,19 +22,19 @@ For this project, I rebuilt the NMG Active Directory environment from the ground
 
 ## Project Timeline
 
-* Day 1: Domain creation and domain controller promotion
+Day 1: Domain creation and domain controller promotion
 
-* Day 2: Organizational unit and security group design
+Day 2: Organizational unit and security group design
 
-* Day 3: User provisioning and RBAC implementation
+Day 3: User provisioning and RBAC implementation
 
-* Day 4: Incident response and resolution (NMG 0047)
+Day 4: Incident response and resolution (NMG 0047)
 
-* Day 5: Documentation and case study packaging
+Day 5: Documentation and case study packaging
 
 ## Key Accomplishments
 
 * Built the NMG.com Active Directory domain from scratch
-* Created OUs and security groups to organize users and manage access by department
-* Provisioned users and implemented role based access using security group membership
-* Identified and corrected incorrect OU placement and security group membership during an access troubleshooting scenario
+* Created four departmental OUs and their corresponding security groups
+* Provisioned users and assigned access based on their roles using security groups
+* Troubleshot and corrected a simulated user access issue involving incorrect OU and security group assignments
